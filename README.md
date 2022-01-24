@@ -18,7 +18,7 @@ Use the search feature to search through the MET Museum's 470,000+ items for ins
 ## Repository: https://github.com/ggruiz7/artsy
 
 ### Screenshot:
-![image](https://github.com/ggruiz7/artsy/main/assets/images/hero-banner.jpg)
+![image](https://github.com/ggruiz7/artsy/blob/main/assets/images/hero-banner.jpg)
 
 ### Future Development:
 - Use client-side storage to store persistent data.
