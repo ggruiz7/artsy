@@ -1,0 +1,21 @@
+.hero {
+  background-image: url("/assets/images/hero-banner.jpg");
+  /*background-repeat: no-repeat;*/
+  margin-bottom: 5%;
+}
+
+.uk-card-body {
+  padding: 5%;
+}
+
+#search-results {
+  padding: 3%;
+}
+
+footer {
+  display: flex;
+}
+
+footer a {
+  align-items: flex-end;
+}

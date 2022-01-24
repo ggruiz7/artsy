@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.10.0/dist/css/uikit.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Artsy</title>
+  </head>
+
+  <body>
+    <nav class="uk-navbar-container uk-margin" uk-navbar uk-sticky>
+      <div class="nav-overlay uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="#"><i class="fab fa-artstation"></i> </a>
+      </div>
+      <div class="nav-overlay uk-navbar-right">
+        <a class="uk-navbar-toggle" uk-search-icon uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+      </div>
+      <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+        <div class="uk-navbar-item uk-width-expand">
+          <form id="search-form" class="uk-search uk-search-navbar uk-width-1-1" data-uk-search>
+            <input id="search-term" class="uk-search-input uk-search-field" type="search" placeholder="Search" autofocus="true" />
+          </form>
+        </div>
+        <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+      </div>
+    </nav>
+
+    <section class="hero is-medium is-info">
+      <div class="hero-body">
+        <p class="title">Artsy</p>
+        <p class="subtitle">Search for your inspiration...</p>
+      </div>
+    </section>
+
+    <section id="search-results">
+      <h2 id="search-term-display"></h2>
+    </section>
+
+    <footer class="uk-flex-center@s">
+      &#10084 Made with love.<a href="https://github.com/ggruiz7/artsy">See me on GitHub</a>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.10.0/dist/js/uikit-icons.min.js"></script>
+  </body>
+</html>
