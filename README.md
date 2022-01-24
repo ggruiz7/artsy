@@ -13,12 +13,15 @@ Use the search feature to search through the MET Museum's 470,000+ items for ins
 - Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id-naming conventions, indentation, quality comments, etc.).
 - Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application
 
-## Live Deployment:
+## Live Deployment: https://ggruiz7.github.io/artsy/
 
-## Repository:
+## Repository: https://github.com/ggruiz7/artsy
 
 ### Screenshot:
+![image](https://github.com/ggruiz7/artsy/main/assets/images/hero-banner.jpg)
 
 ### Future Development:
 - Use client-side storage to store persistent data.
 - Use more than 1 server-side API.
+
+### Contributors: Gabriel Garcia-Ruiz, Caleb Manquera
