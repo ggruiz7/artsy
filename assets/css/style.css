@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(./images/hero-banner.jpg);
+  background-image: url(../images/hero-banner.jpg);
   /*background-repeat: no-repeat;*/
   margin-bottom: 5%;
 }
