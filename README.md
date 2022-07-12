@@ -24,4 +24,4 @@ Use the search feature to search through the MET Museum's 470,000+ items for ins
 - Use client-side storage to store persistent data.
 - Use more than 1 server-side API.
 
-### Contributors: Gabriel Garcia-Ruiz, Caleb Manquera
+### Contributors: Gabriel Garcia-Ruiz
